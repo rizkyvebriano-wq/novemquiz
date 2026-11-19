@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(40, 40, 87);
+}
+
+.start-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2),
+              0 6px 20px 0 rgb(0, 0, 0, 0.19);
+}
+
+.start{
+  background-color: #fff;
+  width: 130px;
+  height: 70px;
+  color: #007bff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+
+.navbar{
+  background-color: rgb(159, 160, 89);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0;
+  
+}
+
+.navbar i{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-right: 20px;
+  padding-right: 0;
+  
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+
+
+
+.app {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  padding: 30px;
+}
+
+.app h1 {
+  color: black;
+  font-size: 25px;
+  font-weight: 25px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #001e00;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: black;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.btn:disabled{
+  cursor: no-drop;
+}
+
+#btn-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 80px;
+  font-weight: 500;
+  border: 1px solid #222;
+  background-color: rgb(39, 98, 200);
+  color: #fff;
+  cursor: pointer;
+  margin: 20px auto 0;
+  padding: 10px;
+  display: "none";
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.inCorrect {
+  background: #ff9393;
+}
